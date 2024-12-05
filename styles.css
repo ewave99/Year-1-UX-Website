@@ -1,0 +1,97 @@
+/* GLOBAL VARIABLES */
+:root {
+    --page-background: #ffffff;
+    --page-foreground: #000000;
+    --text-color: #000000;
+    --text-color-hover: #808080;
+    --text-color-inverted: #ffffff;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--page-background);
+    color: var(--text-color);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--page-foreground);
+    padding: 15px 30px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin: 0 20px;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-color-inverted);
+}
+
+.navbar-item a:hover {
+    color: var(--text-color-hover);
+}
+
+/* Featured Recipes Section */
+.page-content {
+    text-align: center;
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: var(--page-foreground);
+    color: var(--text-color-inverted);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-item {
+    display: inline-block;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: var(--text-color-inverted);
+}
+
+.footer ul li a:hover {
+    color: var(--text-color-hover);
+}
