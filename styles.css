@@ -42,6 +42,7 @@ body {
 
 .navbar-item {
     margin: 0 20px;
+    padding: 0;
 }
 
 .navbar-item a {
@@ -55,15 +56,55 @@ body {
     color: var(--text-color-hover);
 }
 
-/* Featured Recipes Section */
 .page-content {
     text-align: center;
-    margin: 50px 20px;
+    margin: auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: var(--page-background);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex: 1;
+    max-width: 60%;
+    width: 60%;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+img {
+    max-width: 60%;
+}
+figcaption {
+    font-style: italic;
+}
+
+.recipe-details {
+    display: flex;
+    justify-content: center; 
+    gap: 100px;
+    align-items: flex-start; 
+}
+
+.ingredients-list {
+    list-style-type: disc; 
+    text-align: left;
+}
+
+.recipe-info-box {
+    background-color: var(--page-foreground); 
+    color: var(--text-color-inverted); 
+    padding: 10px 15px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: inline-block; 
+    align-self: flex-start; 
+    text-align: left;
+}
+
+.methods-list {
+    list-style-type: decimal; 
+    text-align: left;
 }
 
 /* Footer Styles */
