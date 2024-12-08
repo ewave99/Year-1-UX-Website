@@ -1,8 +1,9 @@
 /* GLOBAL VARIABLES */
 :root {
-    --page-background: #ffffff;
-    --page-foreground: #000000;
-    --text-color: #000000;
+    --page-background: #fafafa;
+    --page-content-background: #ffffff;
+    --page-foreground: #e65800;;
+    --text-color: #333333;
     --text-color-hover: #808080;
     --text-color-inverted: #ffffff;
 }
@@ -22,6 +23,7 @@ body {
 /* Header Styles */
 .header {
     text-align: center;
+    color: var(--page-foreground);
 }
 
 /* Navigation Bar */
@@ -60,7 +62,7 @@ body {
     text-align: center;
     margin: auto;
     padding: 20px;
-    background-color: var(--page-background);
+    background-color: var(--page-content-background);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex: 1;
