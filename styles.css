@@ -20,7 +20,13 @@ body {
     flex-direction: column;
 }
 
-/* Header Styles */
+h1 {
+    text-align: center;
+}
+h2, h3, h4, h5, h6 {
+    text-align: left;
+}
+
 .header {
     text-align: center;
     color: var(--page-foreground);
@@ -61,7 +67,7 @@ body {
 .page-content {
     text-align: center;
     margin: auto;
-    padding: 20px;
+    padding: 0 80px;
     background-color: var(--page-content-background);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -72,6 +78,7 @@ body {
 
 li {
     padding-bottom: 10px;
+    text-align: left;
 }
 
 img {
