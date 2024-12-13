@@ -18,4 +18,4 @@ Optional: Add a card element for the recipe in the Featured Recipes section of t
 1. download `boilerplate.html`
 2. re-name it to the name of your recipe
 3. Write your recipe HTML where it says 'Your content here'
-4. email the recipe to me (emurd001 at gold.ac.uk) along with your recipe image and I will add it to the repo.
+4. email the HTML file to me (emurd001 at gold.ac.uk) along with your recipe image and I will add it to the repo.
