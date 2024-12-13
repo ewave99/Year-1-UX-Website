@@ -8,7 +8,6 @@
 2. Duplicate `boilerplate.html` and re-name the copy to the name of your recipe. 
 3. Write HTML code for your recipe under where it says 'Your content here' in the file.
 4. Add your image for the recipe to the `assets/img` folder.
-4. Move the file to the `recipes` folder.
 5. Commit and push to the repo.
 
 Optional: Add a card element for the recipe in the Featured Recipes section of the homepage.
