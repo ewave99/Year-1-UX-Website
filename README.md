@@ -1,5 +1,7 @@
 # Year-1-UX-Website
 
+The website can be found on [GitHub Pages](https://ewave99.github.io/Year-1-UX-Website).
+
 ## Adding a recipe to the website...
 
 ### If you know how to use git:
