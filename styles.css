@@ -181,3 +181,12 @@ figcaption {
 .footer ul li a:hover {
     color: var(--text-color-hover);
 }
+
+.form-container {
+    text-align: left;
+    font-weight: bold;
+}
+form * {
+    display: block;
+    margin: 5px 0;
+}
