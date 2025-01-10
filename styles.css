@@ -224,3 +224,26 @@ form * {
     display: block;
     margin: 5px 0;
 }
+.page-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.page-content li {
+    margin-bottom: 10px;
+}
+
+.page-content li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFA500;
+    transition: background-color 0.3s ease;
+}
+
+.page-content li a:hover {
+    background-color: #ddd;
+}
